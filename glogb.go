@@ -1,8 +1,7 @@
 package glogb
 
-import "k8s.io/klog/v2"
+import "k8s.io/klog"
 
 func LogB() {
 	klog.Info("Starting transaction...BBB")
-	klog.ContextualLogger(true)
 }
